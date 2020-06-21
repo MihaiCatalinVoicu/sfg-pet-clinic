@@ -1,4 +1,4 @@
-package mihai.springboot.sfgpetclinic.model;
+package mihai.springBoot.sfg_pet_clinic.model;
 
 public class Person {
 

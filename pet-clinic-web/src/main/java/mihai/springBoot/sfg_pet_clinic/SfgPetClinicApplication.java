@@ -1,4 +1,4 @@
-package mihai.springboot.sfgpetclinic;
+package mihai.springBoot.sfg_pet_clinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
