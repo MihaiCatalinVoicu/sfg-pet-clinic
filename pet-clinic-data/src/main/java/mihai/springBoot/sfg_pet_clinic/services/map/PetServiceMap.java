@@ -2,9 +2,11 @@ package mihai.springBoot.sfg_pet_clinic.services.map;
 
 import mihai.springBoot.sfg_pet_clinic.model.Pet;
 import mihai.springBoot.sfg_pet_clinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 @Override
@@ -19,7 +21,7 @@ public Set<Pet> findAll() {
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
